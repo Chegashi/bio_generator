@@ -1,6 +1,5 @@
 import os
 
-
 # Database initialization
 if os.environ.get('DATABASE_URL') is None:
     basedir = os.path.abspath(os.path.dirname(__file__))
