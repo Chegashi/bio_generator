@@ -13,7 +13,10 @@ python3
 
 ### Installation
 
-
+``git clone https://github.com/Chegashi/bio_generator``
+``cd bio_generator``
+``python3 -m venv env``
+``source env/bin/activate``
 ``pip install -r requirements.txt  `` 
 
 ## Démarrage
