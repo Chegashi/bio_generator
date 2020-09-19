@@ -23,6 +23,9 @@ python3
 
 ``python3.8 run.py   ``
 
+[datasets](https://github.com/Chegashi/bio_generator/tree/master/bio_app/textgen/datasets)
+[text generated](https://github.com/Chegashi/bio_generator/tree/master/bio_app/textgen/output)
+[train scripte ](https://github.com/Chegashi/bio_generator/blob/master/bio_app/textgen/trainig/train.py)
 ## Made with
 
 
@@ -41,3 +44,4 @@ python3
 ## N.B
     
 if you have an ereur in textgenrnn replace line number 14 with "from tensorflow.compat.v1.keras.backend import set_session"
+
