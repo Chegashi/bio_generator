@@ -5,7 +5,9 @@ import os
 app = Flask(__name__)
 app.config.from_object('config')
 
-from .utils import gen_bio
+from .utils import gen_bio, init_db
+
+init_db()
 
 @app.route('/')
 @app.route('/index/')

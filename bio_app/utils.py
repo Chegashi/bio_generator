@@ -1,7 +1,7 @@
 import sys
 from textgenrnn import textgenrnn
 import random
-from bio_app.models import Content
+from bio_app.models import Content, init_db
 from io import StringIO
 
 
