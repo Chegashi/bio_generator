@@ -1,0 +1,7 @@
+/env
+app.db 
+__pycache__
+/rapport
+*.c
+/contact
+.gitignore
