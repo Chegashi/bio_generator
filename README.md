@@ -42,6 +42,8 @@ python3
 * [MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-864-advanced-natural-language-processing-fall-2005/)
 
 ## N.B
-    
-if you have an ereur in textgenrnn replace line number 14 with "from tensorflow.compat.v1.keras.backend import set_session"
+
+if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
+ <br /> "from tensorflow.compat.v1.keras.backend import set_session"
+
 
