@@ -13,15 +13,20 @@ python3
 
 ### Installation
 
-* ``git clone https://github.com/Chegashi/bio_generator``
-* ``cd bio_generator``
-* ``python3 -m venv env``
-* ``source env/bin/activate``
-* ``pip install -r requirements.txt  `` 
+```sh
+git clone https://github.com/Chegashi/bio_generator``
+cd bio_generator
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+``` 
 
 ## Démarrage
 
-``python3.8 run.py   ``
+```sh
+python3.8 run.py 
+```
+got to http://127.0.0.1:5000/
 
 [datasets](https://github.com/Chegashi/bio_generator/tree/master/bio_app/textgen/datasets)
 [text generated](https://github.com/Chegashi/bio_generator/tree/master/bio_app/textgen/output)
@@ -42,8 +47,13 @@ python3
 * [MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-864-advanced-natural-language-processing-fall-2005/)
 
 ## N.B
+<<<<<<< HEAD
+=======
 
 if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
  <br /> "from tensorflow.compat.v1.keras.backend import set_session"
 
+>>>>>>> 39c00e320d045165e760505002aa6399e581ab0e
 
+    
+if you have an ereur in textgenrnn.py replace line number 14 with "from tensorflow.compat.v1.keras.backend import set_session"
