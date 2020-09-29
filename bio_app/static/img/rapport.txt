@@ -1,0 +1,75 @@
+    p1
+**********************************************************************************
+
+
+
+p2
+**********************************************************************************
+
+
+p3
+**********************************************************************************
+Table des matières
+
+p4
+***************************************************************************************
+Résumé
+
+Rédiger une biographie Linkedin ne figure pas en haut de notre liste des tâches, nous savons pas quoi écrire. Cela ne vaut pas notre temps. notre profil est suffisamment complet
+Parfois, on a besoin d’un bon exemple - ou de 10 bons exemples - pour voir la magie biographie et savoir comment la rédiger .
+la biographie est la zone de texte en haut de votre profil Linkedin, juste en dessous de notre photo. C’est un espace ouvert (2 000 caractères maximum)  où on donne un aperçu de notre vie professionnelle.
+Ok mais pourquoi avoir une biographie?
+notre biographie est le seul endroit que nous définissons nous-mêmes dans nos propres mots, sans dates de début ni titres. Que nous l'utilisions pour mettre en contexte nos choix de carrière, mettre en valeur nos plus grandes réalisations ou montrer notre personnalité, le biographie est notre chance de nous donner le meilleur de nous-mêmes. Cela
+renforce notre première impression d'une manière qu'aucune autre section de profil ne peut.
+J'ai besoin d'un exemple. À quoi ressemble un excellent résumé?
+pour cette réponse on a construit bio-generator une application web qui suggère aux utilisateurs un exemple de biographie cree par un autre personne qui a la même orientation professionnelle ou une quit a été génère par une machine qui utilise la machine learning ou de construire sur place.
+
+p5  ****************************************************************************************
+Notre projet de fin d’études a été effectué au sein du département informatique de la Faculté
+des Sciences Semlalia, et s’est étalé sur deux mois.
+L’objectif a été de créer un outil capable de generer automatiquement  des biographie pour Linkedin , nous avons décidé de mettre
+en oeuvre une application web capable de répondre aux besoins exprimés.
+
+p6  **********************************************************************
+1   Présentation générale du projet
+    1.1 Motivations et Objectifs
+        Étant d’actualité , et ayant plusieurs enjeux, le choix de ce sujet nous est paru intéressant :
+        le défi technique, qui consistait en l’utilisation de plusieurs technologies afin de répondre à un
+        besoin précis nous a attirés. C’était pour nous une occasion de tester nos capacités d’analyse,
+        de conception et de réalisation .
+        Du point de vue fonctionnel, la solution réalisée doit permettre de :
+            suggere une biographie  d'un profetionnel
+            suggere une biographie  d'un gene par la machine
+            generer une biographie.
+    1.2 Étapes de la réalisation du projet
+        Récupérez et explorez le corpus des biographie
+        Modélisez des sujets avec des méthodes non superviséesNettoyez et normalisez les données
+        Traitez le corpus de textes à l'aide de réseaux de neurones
+        genere des biographie
+
+********************figure********************************
+
+2   Analyse et Conception
+    2.1 diagrame de cas ytilisation
+
+    Utilisateur doit choisir un domine parmi 6 data, desing, develepement, security, economie , acquitte
+    puis chosir une biographie en apuient sur le createur un etre humain ou la machine plus ou un 3 eme cas de le gene sur place .
+
+3O  utils et Technologies utilisés
+
+Python & Django
+    Durant les dernières années, le langage Python est devenu l’un des langages les plus
+    convoités dans le domaine de la programmation informatique, et ce, grâce à sa portabilité,
+    aux différentes librairies prédéfinies qu’il propose, à sa communauté de plus en plus large.
+    Figure 3.1 – Logo de Python.
+    Afin de mener à bien notre projet, nous avons opté pour l’utilisation de ce dernier pour
+    plusieurs raisons, dont on cite :
+     La possibilité de coder suivant la programmation orientée objet
+     La disponibilité d’outils qui nous ont été nécessaires pour les différentes tâches réalisées
+     Une intégration directe du framework web flask, qui nous a permis de réaliser une
+        interface permettant à l’utilisateur d’interagir de façon plus ergonomique et visuelle
+    avec la solution proposée.
+    Figure 3.2 – Logo de flask.
+    4   Réalisation et Mise en Oeuvre
+
+        4.1 Collecte des données
