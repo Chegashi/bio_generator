@@ -1,10 +1,10 @@
-# # bio_generator
+# bio_generator
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://twitter.com/chegashi)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](https://twitter.com/Jihad_Zahir)
 
 Bio generator for Junior Data Scientists, designer, developer, economist and Cybersecurity Analyst. A tool that automatically generates biographies
 ,as a project at the Cadi Ayyad University, by computer science department under the guidance of Professor :Jihad Zahir
 
-![exepr](/bio_app/static/img/screen.png)
+![exepr](docs/screen.png)
 
 ## Pour commencer
 
@@ -41,11 +41,14 @@ got to http://127.0.0.1:5000/
 if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
  <br /> "from tensorflow.compat.v1.keras.backend import set_session"
 
-![Étapes]("/bio_app/static/img/Étapes de la réalisation du projet.png")
+![steps](docs/steps.png)
 
-![structure](/bio_app/static/img/structure_app.png)
+![backends](docs/backend.png)
 
-![user_exepr](/bio_app/static/img/user_exepr.png)
+[database](docs/db.png)
+
+![frontend](docs/front_end.png)
+
 
 ## Made with
 
