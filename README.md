@@ -28,9 +28,20 @@ python3.8 run.py
 ```
 got to http://127.0.0.1:5000/
 
+
 [datasets](https://github.com/Chegashi/bio_generator/tree/master/bio_app/textgen/datasets)
 [text generated](https://github.com/Chegashi/bio_generator/tree/master/bio_app/textgen/output)
 [train scripte ](https://github.com/Chegashi/bio_generator/blob/master/bio_app/textgen/trainig/train.py)
+
+## N.B
+
+
+if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
+ <br /> "from tensorflow.compat.v1.keras.backend import set_session"
+![Étapes de la réalisation du projet.png](docs/Étapes de la réalisation du projet.png)
+![structure_app.png](docs/structure_app.png)
+![user_exepr.png](docs/user_exepr.png)
+
 ## Made with
 
 
@@ -46,8 +57,3 @@ got to http://127.0.0.1:5000/
 * [w3schools](https://www.w3schools.com/)
 * [MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-864-advanced-natural-language-processing-fall-2005/)
 
-## N.B
-
-
-if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
- <br /> "from tensorflow.compat.v1.keras.backend import set_session"
