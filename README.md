@@ -41,7 +41,7 @@ got to http://127.0.0.1:5000/
 if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
  <br /> "from tensorflow.compat.v1.keras.backend import set_session"
 
-![Étapes](/bio_app/static/img/Étapes de la réalisation du projet.png)
+![Étapes]("/bio_app/static/img/Étapes de la réalisation du projet.png")
 
 ![structure](/bio_app/static/img/structure_app.png)
 
