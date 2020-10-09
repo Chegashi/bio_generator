@@ -4,7 +4,7 @@
 Bio generator for Junior Data Scientists, designer, developer, economist and Cybersecurity Analyst. A tool that automatically generates biographies
 ,as a project at the Cadi Ayyad University, by computer science department under the guidance of Professor :Jihad Zahir
 
-![exepr](docs/screen.png)
+![exepr](docs/screen.gif)
 
 ## Pour commencer
 
