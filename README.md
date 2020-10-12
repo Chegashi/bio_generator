@@ -40,6 +40,13 @@ got to http://127.0.0.1:5000/
 
 if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py"  replace line number 14 with 
  <br /> "from tensorflow.compat.v1.keras.backend import set_session"
+ <br /> or jut run this commend
+ 
+
+```sh
+textgenrnn=env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py && awk '{ if (NR == 14) print "from tensorflow.compat.v1.keras.backend import set_session"; else print $0}' $aa > tmp && cat tmp > $textgenrnn && rm tmp
+
+```
 
 ### steps
 
