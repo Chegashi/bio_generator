@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 ## Démarrage
 
 ```sh
-python3.8 run.py 
+python3 run.py 
 ```
 got to http://127.0.0.1:5000/
 
@@ -44,7 +44,7 @@ if you have an ereur in textgenrnn module  "env/lib/python3.8/site-packages/text
  
 
 ```sh
-textgenrnn=env/lib/python3.8/site-packages/textgenrnn/textgenrnn.py && awk '{ if (NR == 14) print "from tensorflow.compat.v1.keras.backend import set_session"; else print $0}' $aa > tmp && cat tmp > $textgenrnn && rm tmp
+textgenrnn=env/lib/python3/site-packages/textgenrnn/textgenrnn.py && awk '{ if (NR == 14) print "from tensorflow.compat.v1.keras.backend import set_session"; else print $0}' $aa > tmp && cat tmp > $textgenrnn && rm tmp
 
 ```
 
