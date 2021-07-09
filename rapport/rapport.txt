@@ -1,0 +1,117 @@
+**************************************page 1************************
+Rapport de stage de fin d'etude
+
+Stage du 1 juin au 30 juin 2020
+
+Pour l'obtention  du titre :
+Licence fondamentale option : matematique et informatique
+Sujet:
+	Bio generator for Junior Data Scientists 
+	Un outil qui génère de façon automatique des biographies ( Français ou Anglais) pour les jeunes Data Scientists. 
+
+
+
+soutenu par : Chegri Mohamed
+encadrent pedagogique: MADAME JIHAD ZAHIR
+annes univairsitaire 2020-2021
+
+
+****************************page 2******************************************
+La formation licence fondamentale mathématiques et informatiques (SMI) du département informatique de la faculté des sciences Semlalia Marrakech est complété par un stage obligatoire d'un' mois, du 1er Mai au 30 Juin, afin d'adapter la formation académique aux exigences du marché de remploi, rendre plus pratique les connaissances théoriques acquises durant les années d'études, donner une vision du domaine du travail et préparer l'étudiant à l'insertion au domaine professionnel 
+J'ai effectué ce stage au sein de ldépartement informatique de la faculté des sciences Semlalia Marrakech, la mission était comme suit de cree un application web  qui aide les les jeunes Data Scientists de mieux rediger leur biographies sur LinkedIn utilisant l'une des principales technologies de Machine Learning et d'intelligence artificielle le Deep Learning 
+
+*********************page 3*********************
+Dédicace
+
+A ma très chère maman Nezha,
+
+Aucune dédicace ne saurait exprimer mon respect, mon amour éternel et ma
+considération pour les sacrifices que vous avez consenti pour mon instruction et
+mon bien être. Je vous remercie pour tout le soutien et l’amour que vous me
+portez depuis mon enfance et j’espère que votre bénédiction m’accompagne
+toujours. Que ce travail soit l’exaucement de vos vœux tant formulés, le fruit de
+vos innombrables sacrifices, bien que je ne vous en acquitterai jamais assez.
+Puisse Dieu, le Très Haut, vous accorder santé, bonheur et longue vie et faire en
+
+sorte que jamais je ne vous déçoive.
+Que Dieu vous protège.
+
+
+En témoignage de mon affection fraternelle, de ma profonde tendresse et
+reconnaissance, je vous souhaite une vie pleine de bonheur et de succès et que
+
+Dieu, le tout puissant, vous protège et vous garde.
+
+A mes chers ami(e)s,
+
+En souvenir de notre sincère et profonde amitié et des moments agréables que
+nous avons passés ensemble. Veuillez trouver dans ce travail l’expression de mon
+respect le plus profond et mon affection la plus sincère.
+
+
+************page 4*****************
+Remerciement
+
+Avant tout remerciement, louange à Dieu.
+
+Les mots ne peuvent pas exprimer notre gratitude pour Mme Jihad Zahir, notre honorable encadrant qui nous à accompagner pendant tout le chemin vers l’accomplissement de ce projet de fin d’études, nous ne pouvions pas trouver un plus mieux encadrement, nous sommes très révérés d’avoir la chance de travailler avec un tel encadrant.  
+Nous tenons aussi à adresser nos profondes reconnaissances et nos extrêmes gratitudes au jury de notre soutenance de projet de fin d'études, qui a accepté d’évaluer notre travail 
+Également, nous remercions l’ensemble du corps enseignant à la Faculté des Sciences Semlalia Marrakech et particulièrement celui du Département Informatique qui nous a incités pendant notre formation et qui a posé dans nos mains le savoir-faire, qui nous a aidés à bien mener ce travail. 
+ Ainsi, nous adressons nos remerciements à la direction de Faculté des Sciences Semlalia Marrakech. 
+Enfin, que tous ceux qui ont participé de près ou de loin à l'élaboration de ce travail, trouvent ici le témoignage de nos sincères remerciements.
+
+
+***************page 5***********
+
+
+                                resumer
+Dans cette étude, nous allons proposer une application web qui va servire a des biographies de Linkedin
+ses biographies seront divisés en six  categories (data , desing , develeppement , économie , security informatique...)
+chaque categorie contienne 3 types de biographie:
+    -Exemple de biographie  professionnelle écrit par des experts
+    -Biographie qui se génère d'une manière automatique avec un modèle de base sur NLP "natural languge proseting"
+    -Biographies qui prennent en compte les paramètres suivants: le nom , le métier  et l'institut dans laquelle l'utilisateur travaille
+    Afin d'atteindre l'objectif visé, on a utilisé un ensemble des outils des langages de programmations et des méthodes pour réaliser cette étude
+    Notre travail a été diviser en deux grands chapitres principaux, la première partie consiste à a lire les profils linkedin,extraire les biographies et les classer selon la profession
+    Pour extraire les informations; on a utilisé la bibliothèque selenium , Après l’extraction des données structurées, 
+    on a utilisé une bibliothèque "Textgenrnn" , elle est basé sur le projet char-rnn avec quelques optimisations modernes,
+    telles que la possibilité de travailler avec des très petites séquences de texte. fin de deployet se model de machin lerngin avec le micro firmwork flask
+
+******************page 6*************************
+Liste des figures
+*******************page 7***************
+Table des matières
+***********************page 8**********************
+Introduction générale
+*********************************
+
+                    introduction general
+apres avoir fini les etudes, les carrieres s`apparaissent, le première probleme qui affronte les nouveaux laureats est la difficulte de trouver un stage preembauche ou un emploi. pour ce faire il ont besoin d'un reseau qui contient leurs donnees professionnels , ce reseau va les aider pour initialiser leur cariere et avoir une vue global du marche d'emploi est ses besoin.
+linkedin est un reseau qui contient 660 millions de membres dans le monde en 2020,  avec 69 % des membres active, les utilisateur depose leur cv et une discription de leur parcour acadimique et professionnelle, et 87% des recruteurs examineront la candidat en visitant leur profil LinkedIn en USA. selon les données de Jobvite Donc, dans cet esprit, un bon profil LinkedIn commence par un résumé fantastique.
+
+presentation de proget
+dans ce projet on vas cree un application web qui v genere dune facont automatique li biographie pour les jeunes data scintiste en utilisent une technologies de Machine Learning Le deep learning .pour ce but la on va faire appele a la bibliotheque open source écrite en python Keras et la plate-forme tenserflow afin de deployer le modele de machine lerning via le microframework flask afin de cree une interface grafique qui permet ou jeune data scintiste de genere une biograhie en un clic.
+
+*******************************etude therorique de proget**************************
+au debut on doit definr notre enverenemt de travaille ansi que les bibliotheque utilse
+
+Machine Learning est une technologie d’intelligence artificielle permettant aux ordinateurs d’apprendre sans avoir été programmés explicitement à cet effet. Pour apprendre et se développer, les ordinateurs ont toutefois besoin de données à analyser et sur lesquelles s’entraîner. De fait, le Big Data est l’essence du Machine Learning, et  c’est la technologie qui permet d’exploiter pleinement le potentiel du Big Data. 
+
+Le deep learning ou apprentissage profond est un type d'intelligence artificielle dérivé du machine learning (apprentissage automatique) où la machine est capable d'apprendre par elle-même, contrairement à la programmation où elle se contente d'exécuter à la lettre des règles prédéterminées
+
+jeu de données:  (en anglais dataset ou data set) selon wikipidia est un ensemble de valeurs (ou données) où chaque valeur est associée à une variable (ou attribut) et à une observation. Une variable décrit l'ensemble des valeurs décrivant le même attribut et une observation contient l'ensemble des valeurs décrivant les attributs d'une unité
+
+TensorFlow est une bibliothèque open source de Machine Learning, créée par Google, permettant de développer et d’exécuter des applications de Machine Learning et de Deep Learning. Découvrez tout ce que vous devez savoir à son sujet
+
+Keras permet d'interagir avec les algorithmes de réseaux de neurones profonds et de machine learning, notamment Tensorflow3 
+Conçue pour permettre une expérimentation rapide avec les réseaux de neurones profonds, elle se concentre sur son ergonomie, sa modularité et ses capacites d’extension. Elle a été développée dans le cadre du projet ONEIROS (Open-ended Neuro-Electronic Intelligent Robot Operating System)5. Elle a été initialement écrite par François Chollet.
+***************************************************************	*******
+Natural Language Processing:
+est exactement ce que cela ressemble, les techniques utilisées pour permettre aux ordinateurs de comprendre le langage humain naturel, plutôt que d'avoir à interagir avec les gens à travers des langages de programmation. Le traitement du langage naturel est nécessaire pour des tâches telles que la classification de documents Word ou la création d'un chatbot.
+proget
+
+La première étape du traitement des données texte est de récupérer le texte et le nettoyer afin de pouvoir l'utiliser ultérieurement dans vos algorithmes. C'est aussi bien de passer par une petite exploration afin de mieux le comprendre
+
+
+
+                                                                        chapitre 1
